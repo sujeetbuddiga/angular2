@@ -2,10 +2,10 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    template: '<h1>My First Angular 2 App</h1>'+
+              '<h1>{{title}}</h1><h2>{{hero}} details!</h2>'
 })
 export class AppComponent {
-// this is the test comment2
   title = 'Tour of Heroes';
   hero = 'Windstorm';
 }
